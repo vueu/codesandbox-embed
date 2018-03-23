@@ -1,0 +1,29 @@
+{
+  "name": "codesandbox-embed",
+  "version": "0.1.0",
+  "description": "Embed your CodeSandbox sandboxes via a component for React apps!",
+  "main": "index.js",
+  "repository": "https://github.com/vueu/codesandbox-embed",
+  "author": "vueu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "parcel-bundler": "^1.6.2",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0"
+  }
+}
