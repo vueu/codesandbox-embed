@@ -1,8 +1,10 @@
-import React from 'react';
-import enzyme, { shallow, mount } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+const React = require('react');
+const enzyme = require('enzyme');
+const Adapter = require('enzyme-adapter-react-16');
 
-import CodeSandbox from '../';
+const CodeSandbox = require('../build/codesandbox-embed');
+
+const { shallow } = enzyme;
 
 enzyme.configure({ adapter: new Adapter() });
 
